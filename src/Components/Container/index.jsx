@@ -16,7 +16,6 @@ const Container = () => {
   `;
 
   const StyledContent = styled.section`
-    border : 2px solid cyan;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

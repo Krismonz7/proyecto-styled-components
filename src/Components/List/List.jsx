@@ -18,7 +18,7 @@ export const List = () => {
         ))
       }
 
-      <Btn>Boton</Btn>
+      <Btn>Ver mas</Btn>
     </Box>
   )
 }
