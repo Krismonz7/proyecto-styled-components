@@ -1,10 +1,13 @@
 import { styled } from "styled-components";
 
-const Icono =  styled.img`
+export const Icono =  styled.img`
   height: 25px;
   width: 25px;
 `;
 
+export const IconoTema = styled(Icono)`
+filter:${({theme})=>theme.filter}
+`
 
 export const Btn = styled.button`
   margin: 15px auto 0px auto;
@@ -60,5 +63,3 @@ export const BtnTema = styled.div`
   border: none;
   cursor: pointer;
 `
-
-export default Icono;

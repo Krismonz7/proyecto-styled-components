@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import privado from "../../assets/images/privado.svg";
 import ojo from "../../assets/images/ojo.svg";
 import dinero from "../../assets/images/dinero.svg";
-import Icono, { Box, Btn, Detalle, Saldo } from "../UI";
+import { Box, Btn, Detalle, Saldo , Icono } from "../UI";
 import { styled } from "styled-components"
 
 const IconoMargin = styled(Icono)`
